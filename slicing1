@@ -1,0 +1,167 @@
+strings = [
+    "Hund",
+    "Katze",
+    "Maus",
+    "Vogel",
+    "Schlange",
+    "Elefant",
+    "Giraffe",
+    "Löwe",
+    "Tiger",
+    "Bär",
+]
+answer = []
+# Was sind die Ausgaben?:
+# Aufgabe 1     strings[0:3]  
+answer = [
+        "Hund",
+        "Katze",
+        "Maus",
+]
+
+print("Aufgabe 1 =" , answer == strings[0:3])
+answer.clear()
+# Aufgabe 2     strings[3:7]
+answer =[
+    "Vogel",
+    "Schlange",
+    "Elefant",
+    "Giraffe",
+]
+print("Aufgabe 2 =" , answer == strings[3:7])
+answer.clear()
+# Aufgabe 3     strings[5:]
+answer =[
+    "Elefant",
+    "Giraffe",
+    "Löwe",
+    "Tiger",
+    "Bär"
+]
+print("Aufgabe 3 =" , answer ==  strings[5:])
+answer.clear()
+# Aufgabe 4     strings[2:-1]
+answer =[
+     "Maus",
+    "Vogel",
+    "Schlange",
+    "Elefant",
+    "Giraffe",
+    "Löwe",
+    "Tiger", 
+]
+print("Aufgabe 4 =" , answer ==  strings[2:-1])
+answer.clear()
+# Aufgabe 5     strings[:4]
+answer =[
+    "Hund",
+    "Katze",
+    "Maus",
+    "Vogel",
+]
+print("Aufgabe 5 =" , answer ==  strings[:4])
+answer.clear()
+# Aufgabe 6     strings[-5:]
+answer =[
+    "Elefant",
+    "Giraffe",
+    "Löwe",
+    "Tiger",
+    "Bär",
+]
+print("Aufgabe 6 =" , answer ==  strings[-5:])
+answer.clear()
+# Aufgabe 7     strings[1:8:2]
+answer =[
+    "Katze",
+    "Vogel",
+    "Elefant",
+    "Löwe",
+]
+print("Aufgabe 7 =" , answer ==  strings[1:8:2])
+answer.clear()
+# Aufgabe 8     strings[::4]
+answer =[
+    "Hund",
+    "Schlange",
+    "Tiger",
+]
+print("Aufgabe 8 =" , answer ==   strings[::4])
+answer.clear()
+# Aufgabe 9     strings[-4:-1]
+answer =[
+    "Giraffe",
+    "Löwe",
+    "Tiger",
+]
+print("Aufgabe 9 =" , answer ==   strings[-4:-1])
+answer.clear()
+# Aufgabe 10    strings[-3:]
+answer =[
+    "Löwe",
+    "Tiger",
+    "Bär",    
+]
+print("Aufgabe 10 =" , answer ==  strings[-3:])
+answer.clear()
+# Aufgabe 11    strings[2:-2:3]
+answer =[
+    "Maus",
+    "Elefant",
+]
+print("Aufgabe 11 =" , answer ==  strings[2:-2:3])
+answer.clear()
+# Aufgabe 12    strings[1::2]
+answer =[
+    "Katze",
+    "Vogel",
+    "Elefant",
+    "Löwe",
+    "Bär",
+]
+print("Aufgabe 12 =" , answer ==  strings[1::2])
+answer.clear()
+# Aufgabe 13    strings[:5:2]
+answer =[
+    "Hund",
+    "Maus",
+    "Schlange",
+]
+print("Aufgabe 13 =" , answer == strings[:5:2])
+answer.clear()
+# Aufgabe 14    strings[-6:-2:2]
+answer =[
+    "Schlange",
+    "Giraffe",
+]
+print("Aufgabe 14 =" , answer == strings[-6:-2:2])
+answer.clear()
+# Aufgabe 15    strings[::5]
+answer =[
+    "Hund",
+    "Elefant",
+]
+print("Aufgabe 15 =" , answer == strings[::5])
+answer.clear()
+# Aufgabe 16    strings[3:-3]
+answer =[
+    "Vogel",
+    "Schlange",
+    "Elefant",
+    "Giraffe",
+]
+print("Aufgabe 16 =" , answer == strings[3:-3])
+answer.clear()
+# Aufgabe 17    strings[4:9:3]
+answer =[
+    "Schlange",
+    "Löwe",
+]
+print("Aufgabe 17 =" , answer == strings[4:9:3])
+answer.clear()
+# Aufgabe 18    strings[-8:-2:3]
+answer =[
+    "Maus",
+    "Elefant",
+]
+print("Aufgabe 18 =" , answer == strings[-8:-2:3])

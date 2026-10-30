@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Max Schmidt",
+        "alter": 30,
+        "email": "max@mail.de",
+        "hobby": "Krafttraining"
+    },
+    {
+        "name": "Anna Müller",
+        "alter": 25,
+        "email": "anna@mail.de",
+        "hobby": "Yoga"
+    },
+    {
+        "name": "Lisa Weber",
+        "alter": 28,
+        "email": "lisa@mail.de",
+        "hobby": "Pilates"
+    },
+    {
+        "name": "Andrii",
+        "alter": 28,
+        "email": "botetbya@gmail.com",
+        "hobby": "gaming"
+    }
+]
